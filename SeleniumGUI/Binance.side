@@ -1,0 +1,281 @@
+{
+  "id": "9b4c9e7d-d2a5-44fd-a5d2-d53551d05cf3",
+  "version": "2.0",
+  "name": "Binance",
+  "url": "https://www.binance.com/it",
+  "tests": [{
+    "id": "f2f10659-0a48-413f-86b2-44d4e8a789f5",
+    "name": "Untitled",
+    "commands": [{
+      "id": "074e98c8-5b13-42af-8783-078c88502f2f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.binance.com/it",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "994588ef-3450-4a66-9f39-4b884f16a3be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d95345cc-1b13-46ea-90f9-3288d70f1367",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header_menu_ba-tableMarkets > .css-vurnku",
+      "targets": [
+        ["css=#header_menu_ba-tableMarkets > .css-vurnku", "css:finder"],
+        ["xpath=//a[@id='header_menu_ba-tableMarkets']/div", "xpath:idRelative"],
+        ["xpath=//header/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2eda10-a630-49cc-9acd-19d21cf477c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-vlibs4:nth-child(2) .css-1ap5wc6",
+      "targets": [
+        ["css=.css-vlibs4:nth-child(2) .css-1ap5wc6", "css:finder"],
+        ["xpath=//div[@id='tabContainer']/div[2]/div[2]/div/div[2]/div[2]/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div[3]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2278",
+      "windowTimeout": 2000
+    }, {
+      "id": "11f6b569-379a-49f8-9308-0f9a3fecb702",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2278}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8ff3ccb-7f34-4175-aa82-00ada9e1de3d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "106c138e-f360-457c-b3c9-01e109cb2d87",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58d2e908-e7bf-406f-be02-b0f6a50f4007",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7f9a21b-08b8-4710-9b83-3495037e7e78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,448.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c94d69-0d5d-40f3-b23b-ecb4267e1f93",
+      "comment": "",
+      "command": "click",
+      "target": "id=FormRow-BUY-price",
+      "targets": [
+        ["id=FormRow-BUY-price", "id"],
+        ["name=price", "name"],
+        ["css=#FormRow-BUY-price", "css:finder"],
+        ["xpath=//input[@id='FormRow-BUY-price']", "xpath:attributes"],
+        ["xpath=//form[@id='autoFormBUY']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "611644af-024a-4cdb-94c5-dde0b69eab4d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d34e49cf-d99b-415b-a8ff-edd91b1ce4a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(2) .item-symbol",
+      "targets": [
+        ["css=.list-item-container:nth-child(2) .item-symbol", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6733ff30-7062-4edc-af2d-d4fd2a393a5d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(2) .item-symbol",
+      "targets": [
+        ["css=.list-item-container:nth-child(2) .item-symbol", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a14a846-47a5-4ebb-b9ee-2f2689530bd0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=.list-item-container:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[4]/div/a/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/div/div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad26675d-9e4f-4e0c-9ddb-779bdced4aea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=.list-item-container:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[4]/div/a/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/div/div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eb9a33d-ea58-44f9-842a-12107ee61e5c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(10) .item-symbol",
+      "targets": [
+        ["css=.list-item-container:nth-child(10) .item-symbol", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[10]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b2dcf0-13f4-499a-ae99-897b5edbc789",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(10) .item-symbol",
+      "targets": [
+        ["css=.list-item-container:nth-child(10) .item-symbol", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[10]/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[10]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fb8205a-b943-4926-956b-69823e0fa60a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(6) .item:nth-child(2)",
+      "targets": [
+        ["css=.list-item-container:nth-child(6) .item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[6]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ba6fbb7-b1f8-4fe4-a08c-d8581580e540",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(6) .item:nth-child(2)",
+      "targets": [
+        ["css=.list-item-container:nth-child(6) .item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[6]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4469543c-1eea-4f8a-9696-b6c8474e4329",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(3) .item-change-text",
+      "targets": [
+        ["css=.list-item-container:nth-child(3) .item-change-text", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[3]/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "483da1cc-9b37-4a08-9fc7-ae5af81ba5d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(3) .item-change-text",
+      "targets": [
+        ["css=.list-item-container:nth-child(3) .item-change-text", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[3]/div/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13ecf91d-b395-4b52-91aa-d80ee3504300",
+      "comment": "Max ETH 24 h",
+      "command": "assertText",
+      "target": "css=div:nth-child(2) > .tickerPriceText",
+      "targets": [
+        ["css=div:nth-child(2) > .tickerPriceText", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[4]/div/div/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "1,817.13"
+    }, {
+      "id": "9f46f7cb-74dc-4a81-9ea9-073de2346714",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(10) .market-multiple",
+      "targets": [
+        ["css=.list-item-container:nth-child(10) .market-multiple", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[10]/div/a/div/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//div[10]/div/a/div/div[2]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b1d180-645d-46fc-8406-e4a0cb7c39be",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(10) .market-multiple",
+      "targets": [
+        ["css=.list-item-container:nth-child(10) .market-multiple", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[10]/div/a/div/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//div[10]/div/a/div/div[2]/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5d0f2b-bc15-4679-a6cf-55df39fed077",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.list-item-container:nth-child(3) .item-change",
+      "targets": [
+        ["css=.list-item-container:nth-child(3) .item-change", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[3]/div/a/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f016fadd-ece9-4163-ac1a-f95de41c466b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.list-item-container:nth-child(3) .item-change",
+      "targets": [
+        ["css=.list-item-container:nth-child(3) .item-change", "css:finder"],
+        ["xpath=//div[@id='__APP']/div/div/div[7]/div/div[2]/div/div/div/div[3]/div/a/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b5194420-f9df-4930-b998-e3bf5afd6318",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f2f10659-0a48-413f-86b2-44d4e8a789f5"]
+  }],
+  "urls": ["https://www.binance.com/it"],
+  "plugins": []
+}
